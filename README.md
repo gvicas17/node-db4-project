@@ -6,11 +6,11 @@
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: git push -u origin `<firstName-lastName>`.
 
 ### Task 2: Minimum Viable Product
 
@@ -38,6 +38,7 @@ In addition to the `migrations` and `seeding` scripts, write a data access file 
 - `getRecipes()`: should return a list of all recipes in the database.
 - `getShoppingList(recipe_id)`: should return a list of all ingredients and quantities for a given recipe
 - `getInstructions(recipe_id)`: should return a list of step by step instructions for preparing a recipe
+
 
 Organize and name your files anyway you see fit.
 
