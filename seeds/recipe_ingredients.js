@@ -1,6 +1,6 @@
 
 exports.seed = function(knex) {
-      return knex('table_name').insert([
+      return knex('recipe_ingredients').insert([
         {quantity: 1, unit: 'lb', recipe_id: 1, ingredients_id: 1, instructions_id: 5},
         {quantity: 2, unit: 'cups', recipe_id: 1, ingredients_id: 2, instructions_id: 3},
         {quantity: 4, unit: 'qts', recipe_id: 1, ingredients_id: 3, instructions_id: 1},

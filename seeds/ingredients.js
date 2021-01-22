@@ -1,7 +1,7 @@
 
 exports.seed = function(knex) {
       // Inserts seed entries
-      return knex('table_name').insert([
+      return knex('ingredients').insert([
         {ingredient_name: 'noodles'},
         {ingredient_name: 'milk'},
         {ingredient_name: 'water'},
